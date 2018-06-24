@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+<title>あ！スーモ！</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="theme-color" content="40c14a">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@masayazzrs">
+<meta property="og:url" content="https://diawel.github.io/suumo/">
+<meta property="og:title" content="スーモメーカー"> 
+<meta property="og:description" content="あ！スーモ！"> 
+<meta property="og:image" content="https://diawel.github.io/suumo/logo.png">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<script src="script/main.js"></script>
+</head>
+<body>
+<img src="img/logo.png" style="height: 5vmax;"><br>
+好きな文からスーモを生成できます。<br>
+長すぎると途中で切れます。日本語以外だとうまくいかないかもしれません。<br>
+<br>
+もとの文<br>
+<textarea id="text"></textarea><br>
+<a href="javascript:suumo();">スーモ！</a>
+<input type="checkbox" id="mute">
+<label>ミュート</label>
+<input type="checkbox" id="correction" checked>
+<label>文字幅補正</label>
+<audio id="se" src="sound/suumo.mp3"></audio><br>
+<br>
+できたスーモ<br>
+<textarea id="suumo"></textarea><br>
+<a id="tweet" href="https://twitter.com/intent/tweet?text=あ！スーモ！ https://diawel.github.io/suumo/" target="_blank">ツイート</a>
+<a id="tweet" href="javascript:copy();">クリップボードにコピー</a>
+</body>
+</html>
