@@ -12,7 +12,7 @@ letters.splice(53,letters.length-53);
 letters.splice(0,0,"              ");
 letters.splice(5,0,"\n       ");
 letters.splice(12,0,"\n  ");
-letters.splice(16,0,"👁");
+letters.splice(15,0,"👁");
 letters.splice(18,0,"👁");
 letters.splice(22,0,"\n");
 letters.splice(32,0,"\n");
